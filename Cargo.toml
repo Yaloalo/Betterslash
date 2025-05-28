@@ -1,0 +1,13 @@
+[package]
+name = "betterslash"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+nvim-oxi = { version = "0.3", features = ["neovim-0-9"] }
+fuzzy-matcher = "0.3"
+regex = "1"
+strsim = "0.10"
